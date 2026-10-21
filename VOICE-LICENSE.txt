@@ -1,0 +1,13 @@
+Offline narration uses Kokoro82M v1.0 and documented stock male voices.
+Model and voice weights: Apache License 2.0.
+https://huggingface.co/hexgrad/Kokoro-82M
+https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md
+
+Inference engine: kokoro-onnx 0.6.1, MIT license.
+https://github.com/thewh1teagle/kokoro-onnx
+https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.1
+
+Runtime dependencies retain their bundled licenses and notices under .runtime/.
+FFmpeg is used through the existing installation and is not redistributed here.
+Windows fonts are read from the existing licensed workstation installation.
+No third-party music, voice cloning or paid inference is included.

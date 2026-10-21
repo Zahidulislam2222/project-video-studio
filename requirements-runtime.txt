@@ -1,0 +1,2 @@
+# Retained v1 uses the same maintained direct dependency set as v2.
+-r requirements-v2.txt

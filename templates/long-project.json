@@ -1,0 +1,105 @@
+{
+  "title": "Your project title",
+  "author": "Your name",
+  "voice": "am_michael",
+  "delivery": "confident",
+  "pronunciation": {},
+  "overlay_titles": true,
+  "scenes": [
+    {
+      "id": "01-intro",
+      "role": "intro",
+      "title": "Your project",
+      "subtitle": "A useful outcome",
+      "media": null,
+      "trim_start": 0,
+      "delivery": null,
+      "motion": null,
+      "effect": "auto",
+      "asset_request": null,
+      "sentences": [
+        "A clear story, real evidence, and one useful next step."
+      ]
+    },
+    {
+      "id": "02-story",
+      "role": "body",
+      "title": "The problem",
+      "subtitle": "Start with the audience",
+      "media": null,
+      "trim_start": 0,
+      "delivery": null,
+      "motion": null,
+      "effect": "auto",
+      "asset_request": null,
+      "sentences": [
+        "Begin with the problem your audience recognizes, and explain why solving it matters in their daily work. Keep the language concrete, so viewers understand the situation before they hear about the technology.",
+        "Name the person using the product, the task they need to complete, and the friction that slows them down. Replace this example narration with facts from your own project, without adding results you cannot support.",
+        "Before recording, collect the source material for every important claim. Use screenshots, test reports, or approved demonstrations, and make sure no personal information, credentials, or private customer data appears in the footage.",
+        "When you describe the earlier situation, focus on the observable difficulty rather than an exaggerated promise. Explain what changed, who benefits from the change, and which part of the process still requires human judgment.",
+        "Give the architecture only as much attention as the audience needs. Describe the main components and explain why they were chosen. A useful technical explanation connects a design decision to reliability, usability, or a specific constraint."
+      ]
+    },
+    {
+      "id": "03-story",
+      "role": "body",
+      "title": "The workflow",
+      "subtitle": "Show what actually happens",
+      "media": null,
+      "trim_start": 0,
+      "delivery": null,
+      "motion": null,
+      "effect": "auto",
+      "asset_request": null,
+      "sentences": [
+        "Show the real workflow in a clear order, starting with the input and ending with the result. Give each important action enough time to be understood, and let the screen recording support the narration.",
+        "Explain the decision that makes this project useful, then connect that choice to the outcome. If an integration is planned or a feature is unfinished, say so clearly while showing the current working version.",
+        "For each workflow step, show the input, the action, and the visible result. Avoid jumping between unrelated screens. If a recording is too short for the narration, capture a longer version or shorten the script instead of hiding the gap.",
+        "Animations should direct attention toward the important part of the frame. Use a gentle title reveal, a restrained accent, or a slow move on a still image. Keep real interface recordings readable and allow the audience to follow the action.",
+        "Keep sound effects quiet and purposeful. A short transition can mark a new section, while natural ambience can support the setting. The voice should remain clear throughout, and this project deliberately excludes background music."
+      ]
+    },
+    {
+      "id": "04-story",
+      "role": "body",
+      "title": "The evidence",
+      "subtitle": "Make the outcome believable",
+      "media": null,
+      "trim_start": 0,
+      "delivery": null,
+      "motion": null,
+      "effect": "auto",
+      "asset_request": null,
+      "sentences": [
+        "Use a verified example to demonstrate the difference the project makes. Describe what was checked, what the viewer can see, and any limits that affect how they should interpret the result.",
+        "Finish the main story with a practical benefit and a clear path forward. Remove repeated claims, keep the strongest evidence, and leave the audience with one idea they can remember.",
+        "If a missing illustration comes from an online library, check its relevance and the recorded license before publication. Keep the creator credit and source link with the exported film. An illustrative stock image does not prove that a project feature exists.",
+        "Explain how the result was verified in language the audience can follow. Separate automated checks from manual review, and distinguish a successful demonstration from long term production evidence. Mention remaining limitations when they affect the conclusion.",
+        "End by returning to the original problem and describing the concrete improvement. Give the audience one next step, such as reviewing the documentation or trying the demonstrated workflow. Keep the closing message brief, so the film ends with a clear purpose."
+      ]
+    },
+    {
+      "id": "05-outro",
+      "role": "outro",
+      "title": "Your next step",
+      "subtitle": "Review the evidence",
+      "media": null,
+      "trim_start": 0,
+      "delivery": null,
+      "motion": null,
+      "effect": "auto",
+      "asset_request": null,
+      "sentences": [
+        "Review the evidence, then choose your next step."
+      ]
+    }
+  ],
+  "format": "long",
+  "motion": "calm",
+  "sound": {
+    "enabled": true,
+    "ambience": null,
+    "non_musical_confirmed": false,
+    "asset_request": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "title": "Your project title",
+  "author": "Your name",
+  "voice": "am_michael",
+  "delivery": "confident",
+  "pronunciation": {},
+  "overlay_titles": true,
+  "scenes": [
+    {
+      "id": "01-intro",
+      "role": "intro",
+      "title": "Your project",
+      "subtitle": "A useful outcome",
+      "media": null,
+      "trim_start": 0,
+      "delivery": null,
+      "motion": null,
+      "effect": "auto",
+      "asset_request": null,
+      "sentences": [
+        "A clear story, real evidence, and one useful next step."
+      ]
+    },
+    {
+      "id": "02-story",
+      "role": "body",
+      "title": "The problem",
+      "subtitle": "Start with the audience",
+      "media": null,
+      "trim_start": 0,
+      "delivery": null,
+      "motion": null,
+      "effect": "auto",
+      "asset_request": null,
+      "sentences": [
+        "Begin with the problem your audience recognizes, and explain why solving it matters in their daily work. Keep the language concrete, so viewers understand the situation before they hear about the technology."
+      ]
+    },
+    {
+      "id": "03-story",
+      "role": "body",
+      "title": "The workflow",
+      "subtitle": "Show what actually happens",
+      "media": null,
+      "trim_start": 0,
+      "delivery": null,
+      "motion": null,
+      "effect": "auto",
+      "asset_request": null,
+      "sentences": [
+        "Show the real workflow in a clear order, starting with the input and ending with the result. Give each important action enough time to be understood, and let the screen recording support the narration.",
+        "Explain the decision that makes this project useful, then connect that choice to the outcome. If an integration is planned or a feature is unfinished, say so clearly while showing the current working version."
+      ]
+    },
+    {
+      "id": "04-story",
+      "role": "body",
+      "title": "The evidence",
+      "subtitle": "Make the outcome believable",
+      "media": null,
+      "trim_start": 0,
+      "delivery": null,
+      "motion": null,
+      "effect": "auto",
+      "asset_request": null,
+      "sentences": [
+        "Use a verified example to demonstrate the difference the project makes. Describe what was checked, what the viewer can see, and any limits that affect how they should interpret the result."
+      ]
+    },
+    {
+      "id": "05-outro",
+      "role": "outro",
+      "title": "Your next step",
+      "subtitle": "Review the evidence",
+      "media": null,
+      "trim_start": 0,
+      "delivery": null,
+      "motion": null,
+      "effect": "auto",
+      "asset_request": null,
+      "sentences": [
+        "Review the evidence, then choose your next step."
+      ]
+    }
+  ],
+  "format": "short",
+  "motion": "dynamic",
+  "sound": {
+    "enabled": true,
+    "ambience": null,
+    "non_musical_confirmed": false,
+    "asset_request": null
+  }
+}

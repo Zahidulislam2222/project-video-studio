@@ -1,0 +1,187 @@
+{
+  "runtime_packages": ".runtime/site-packages",
+  "model": ".runtime/models/kokoro-v1.0.int8.onnx",
+  "voices": ".runtime/models/voices-v1.0.bin",
+  "model_sha256": "ae315a79b623f244700e4afb9246c46a26066782e049ba174bf3ba433970ee9c",
+  "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+  "default_voice": "am_michael",
+  "default_delivery": "confident",
+  "male_voices": {
+    "am_michael": "en-us",
+    "am_fenrir": "en-us",
+    "am_puck": "en-us",
+    "bm_george": "en-gb"
+  },
+  "delivery": {
+    "confident": {
+      "speed": 0.98,
+      "sentence_pause": 0.28,
+      "clause_pause": 0.12,
+      "gap": 0.2
+    },
+    "warm": {
+      "speed": 0.93,
+      "sentence_pause": 0.35,
+      "clause_pause": 0.16,
+      "gap": 0.3
+    },
+    "energetic": {
+      "speed": 1.06,
+      "sentence_pause": 0.22,
+      "clause_pause": 0.08,
+      "gap": 0.16
+    },
+    "thoughtful": {
+      "speed": 0.9,
+      "sentence_pause": 0.42,
+      "clause_pause": 0.2,
+      "gap": 0.38
+    }
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "crf": 18,
+    "preset": "fast",
+    "audio_rate": 48000,
+    "audio_bitrate": "192k",
+    "loudness": -16,
+    "true_peak": -1.5,
+    "loudness_range": 7,
+    "scene_lead": 0.4,
+    "scene_tail": 0.4,
+    "fade": 0.18,
+    "background": "0x101012",
+    "accent": "0xc9a974",
+    "foreground": "0xf6f2e9",
+    "title_size": 34,
+    "subtitle_size": 23,
+    "title_x": 80,
+    "title_y": 26,
+    "title_gap": 56,
+    "header_height": 128,
+    "header_opacity": 0.95,
+    "card_title_y_fraction": 0.3333333333333333
+  },
+  "captions": {
+    "font": "Segoe UI",
+    "size": 42,
+    "line_characters": 42,
+    "lines": 2,
+    "minimum_seconds": 1.0,
+    "margin_horizontal": 120,
+    "margin_vertical": 34,
+    "safe_band": 140,
+    "band_opacity": 0.82
+  },
+  "limits": {
+    "command_timeout_seconds": 900,
+    "speed_min": 0.5,
+    "speed_max": 2.0,
+    "max_scenes": 40,
+    "max_sentence_characters": 500,
+    "max_duration_seconds": 300,
+    "duration_tolerance_seconds": 0.08
+  },
+  "default_format": "short",
+  "formats": {
+    "short": {
+      "minimum_seconds": 60,
+      "maximum_seconds": 120,
+      "intro_max_seconds": 6,
+      "outro_max_seconds": 7,
+      "width": 1080,
+      "height": 1920,
+      "motion": "dynamic",
+      "template": "templates/short-project.json",
+      "render_overrides": {"title_size": 52, "subtitle_size": 30, "title_x": 65, "title_gap": 78, "header_height": 170},
+      "caption_overrides": {"size": 52, "line_characters": 30, "margin_horizontal": 65, "margin_vertical": 110, "safe_band": 260}
+    },
+    "long": {
+      "minimum_seconds": 240,
+      "maximum_seconds": 300,
+      "intro_max_seconds": 8,
+      "outro_max_seconds": 10,
+      "width": 1920,
+      "height": 1080,
+      "motion": "calm",
+      "template": "templates/long-project.json",
+      "render_overrides": {},
+      "caption_overrides": {}
+    }
+  },
+  "planning": {"words_per_minute": 135},
+  "verification": {"loudness_tolerance_lu": 2, "peak_ceiling_dbfs": -0.1, "stem_duration_tolerance_seconds": 0.08},
+  "motion_presets": {
+    "none": {"enabled": false, "reveal_seconds": 0.6, "stagger_seconds": 0, "slide_pixels": 0, "image_zoom": 1, "pan_fraction": 0, "accent_fraction": 0, "accent_thickness": 4, "fade_seconds": 0.18},
+    "calm": {"enabled": true, "reveal_seconds": 0.85, "stagger_seconds": 0.18, "slide_pixels": 34, "image_zoom": 1.035, "pan_fraction": 0.15, "accent_fraction": 0.28, "accent_thickness": 4, "fade_seconds": 0.22},
+    "dynamic": {"enabled": true, "reveal_seconds": 0.55, "stagger_seconds": 0.12, "slide_pixels": 65, "image_zoom": 1.065, "pan_fraction": 0.3, "accent_fraction": 0.55, "accent_thickness": 7, "fade_seconds": 0.15}
+  },
+  "sound": {
+    "effects_gain_db": -24,
+    "ambience_gain_db": -30,
+    "whoosh_seconds": 0.32,
+    "click_seconds": 0.045,
+    "fade_seconds": 0.6,
+    "noise_seed": 42,
+    "noise_smoothing": 12,
+    "duck_threshold": 0.015,
+    "duck_ratio": 8,
+    "duck_attack_ms": 12,
+    "duck_release_ms": 260
+  },
+  "online": {
+    "enabled": true,
+    "timeout_seconds": 30,
+    "max_bytes": 67108864,
+    "max_results": 12,
+    "query_characters": 200,
+    "user_agent": "ProjectVideoStudio/1.0 (local film authoring; public licensed media)",
+    "stock_label": "Illustrative stock",
+    "fallback_label": "Illustration unavailable",
+    "audio_excluded_terms": ["music", "song", "melody", "anthem", "orchestra", "symphony", "piano", "guitar"]
+  },
+  "asset_libraries": {
+    "commons": {
+      "cost": "free",
+      "driver": "mediawiki",
+      "api_url": "https://commons.wikimedia.org/w/api.php",
+      "allowed_hosts": ["commons.wikimedia.org", "upload.wikimedia.org"],
+      "search_filters": {"image": "filetype:bitmap", "video": "filetype:video", "audio": "filetype:audio"},
+      "licenses": ["CC0", "Public domain", "CC BY 4.0", "CC BY 3.0", "CC BY 2.0"]
+    }
+  },
+  "default_asset_library": "commons",
+  "asset_types": {
+    "image": {"image/jpeg": ".jpg", "image/png": ".png"},
+    "video": {"video/webm": ".webm", "video/mp4": ".mp4"},
+    "audio": {"audio/ogg": ".ogg", "application/ogg": ".ogg", "audio/wav": ".wav", "audio/x-wav": ".wav", "audio/mpeg": ".mp3", "audio/flac": ".flac"}
+  },
+  "asset_decoders": {
+    "image/jpeg": {"formats": ["jpeg_pipe", "image2"], "codecs": ["mjpeg"]},
+    "image/png": {"formats": ["png_pipe", "image2"], "codecs": ["png"]},
+    "video/webm": {"formats": ["matroska", "webm"], "codecs": ["vp8", "vp9", "av1"]},
+    "video/mp4": {"formats": ["mov", "mp4", "m4a", "3gp", "3g2", "mj2"], "codecs": ["h264", "hevc", "av1", "mpeg4"]},
+    "audio/ogg": {"formats": ["ogg"], "codecs": ["vorbis", "opus", "flac"]},
+    "application/ogg": {"formats": ["ogg"], "codecs": ["vorbis", "opus", "flac"]},
+    "audio/wav": {"formats": ["wav"], "codecs": ["pcm_s16le", "pcm_s24le", "pcm_f32le", "pcm_u8"]},
+    "audio/x-wav": {"formats": ["wav"], "codecs": ["pcm_s16le", "pcm_s24le", "pcm_f32le", "pcm_u8"]},
+    "audio/mpeg": {"formats": ["mp3"], "codecs": ["mp3"]},
+    "audio/flac": {"formats": ["flac"], "codecs": ["flac"]}
+  },
+  "sources": {
+    "engine": "https://github.com/thewh1teagle/kokoro-onnx",
+    "voices": "https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md",
+    "model": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "ffmpeg": "https://ffmpeg.org/ffmpeg-filters.html",
+    "wsl": "https://learn.microsoft.com/windows/wsl/basic-commands",
+    "motion_examples": "https://motion.dev/examples",
+    "motion_repository": "https://github.com/motiondivision/motion",
+    "gsap_showcase": "https://gsap.com/showcase/",
+    "gsap_repository": "https://github.com/greensock/GSAP",
+    "remotion_repository": "https://github.com/remotion-dev/remotion",
+    "mediawiki": "https://www.mediawiki.org/wiki/API:Imageinfo",
+    "commons_reuse": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+  }
+}

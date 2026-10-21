@@ -1,0 +1,6 @@
+{
+  "ffmpeg": "Set the absolute WSL path of your installed ffmpeg or ffmpeg.exe",
+  "ffprobe": "Set the absolute WSL path of the corresponding ffprobe",
+  "font_regular": "Set the absolute WSL path of an installed regular TTF font",
+  "font_bold": "Set the absolute WSL path of an installed bold TTF font"
+}

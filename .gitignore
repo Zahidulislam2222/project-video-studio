@@ -1,0 +1,26 @@
+/.runtime/
+/machine.local.json
+/projects/
+/memory/
+/CREDENTIALS.md
+/PROJECT-DOSSIER.md
+/.env
+/.env.*
+!/.env.example
+/manual-tests/
+__pycache__/
+*.pyc
+.mypy_cache/
+.ruff_cache/
+/*-failure.log
+
+/study/
+/machine.v2.local.json
+/workspace/
+/.venv/
+/build/
+
+# Workstation-only instructions/history and the local document bundle.
+/AGENTS.md
+/SPEC.md
+/my-project-view/

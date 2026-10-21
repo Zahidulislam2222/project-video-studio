@@ -1,0 +1,43 @@
+{
+  "title": "Your project title",
+  "author": "Your name",
+  "voice": "am_michael",
+  "delivery": "confident",
+  "pronunciation": {},
+  "overlay_titles": true,
+  "scenes": [
+    {
+      "id": "01-overview",
+      "title": "Your project",
+      "subtitle": "The problem and the outcome",
+      "media": null,
+      "trim_start": 0,
+      "delivery": null,
+      "sentences": [
+        "Introduce your project, explain who it serves, and describe the concrete problem it solves with clear and specific language."
+      ]
+    },
+    {
+      "id": "02-proof",
+      "title": "Show the real flow",
+      "subtitle": "Use approved recordings and verified results",
+      "media": null,
+      "trim_start": 0,
+      "delivery": "thoughtful",
+      "sentences": [
+        "Use this scene to show an actual workflow, connect the technical choices to the outcome, and explain the evidence you verified."
+      ]
+    },
+    {
+      "id": "03-close",
+      "title": "Your next step",
+      "subtitle": "A clear closing message",
+      "media": null,
+      "trim_start": 0,
+      "delivery": "warm",
+      "sentences": [
+        "Finish with the result, mention any material limits honestly, and give the audience one clear next step to learn more about the project."
+      ]
+    }
+  ]
+}

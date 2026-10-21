@@ -1,0 +1,7 @@
+{
+  "title": "Male voice delivery",
+  "author": "Project Video Studio",
+  "subtitle": "Local voice / Adjustable pacing and pauses",
+  "scene_titles": {"confident": "Confident male delivery", "warm": "Warm male delivery", "energetic": "Energetic male delivery", "thoughtful": "Thoughtful male delivery"},
+  "sentences": ["This voice keeps the message clear and confident. It explains the work with a steady pace, then gives the audience a practical next step."]
+}
