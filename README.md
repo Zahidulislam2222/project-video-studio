@@ -50,6 +50,8 @@ python3 -m compileall -q studio_v2
 
 Optional model/native-editor checks can skip when their prerequisites are not configured. CI reports its own executed scope; it does not reproduce the workstation's natural-footage or native-editor review.
 
+The initial public [GitHub CI run](https://github.com/Zahidulislam2222/project-video-studio/actions/runs/39586924675) passed all four jobs. It discovered95tests:94executed and one optional model test skipped; local configured-model evidence above is separate.
+
 ## Contributing and security
 
 See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md) and [DEFECT-LOG.md](DEFECT-LOG.md). GitHub workflows use standard public Linux runners, read-only source permissions and no paid inference. No deployment, artifact hosting or billing activation is configured.

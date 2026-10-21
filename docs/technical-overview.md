@@ -7,6 +7,8 @@ Updated: 21 October 2026 | Author: Zahidul Islam
 Project Video Studio — Comprehensive Technical Overview
 Author: Zahidul Islam | Updated: 21 October 2026 | Release scope: local video production
 
+Source repository: https://github.com/Zahidulislam2222/project-video-studio — published under Zahidul Islam. GitHub CI passed all four jobs for source commit 76cfa73: 95 tests were discovered, 94 executed and one optional model test skipped; lint, v2 types, compilation and the three security scanners passed.
+
 The current system turns an approved script, recorded explanation or brief into an editable video project. It prepares narration or transcription, composes reference/style checkpoints, renders layered shots and produces verified viewing masters plus portable source packages. The intended operator creates regular project walkthroughs, technical explanations and social clips, with AI assistance handling routine preparation and the operator retaining editorial approval.
 
 The latest addition is automatic human video matting. A separately configured local model creates synchronized foreground and mask clips; the compositor can place text behind a presenter and another panel in front. Original footage remains part of the editing package. Human cutouts are explicitly treated as derived illustrations rather than unaltered evidence.
