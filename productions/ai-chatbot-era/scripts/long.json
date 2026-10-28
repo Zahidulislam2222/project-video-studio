@@ -1,0 +1,70 @@
+{
+  "id": "long",
+  "title": "Why Every App Needs an AI Chatbot",
+  "ratio": "landscape",
+  "voice": "am_puck",
+  "speed": 1.0,
+  "scenes": [
+    {"id": "hook", "chapter": "", "beats": [
+      "It's two in the morning.",
+      "A customer wants to know if your best-selling product is back in stock.",
+      "Your team is asleep. Your store is not.",
+      "In under two seconds, they get an answer, a size recommendation, and a checkout link.",
+      "No human was involved. That is an AI chatbot doing its job."]},
+    {"id": "title", "chapter": "", "beats": [
+      "In this video, we'll see why an AI chatbot is no longer a nice extra for apps and websites, but a core part of how a modern business runs. For customers, and for owners."]},
+    {"id": "problem", "chapter": "The scaling problem", "beats": [
+      "Here's the problem every growing app hits.",
+      "More users means more questions. Where is my order? How do I reset my password? Do you ship to my country?",
+      "Most of these questions repeat, again and again.",
+      "The traditional fix is to hire more people. So support costs grow in a straight line with your traffic, and response times still slow down at peak hours.",
+      "That model does not scale."]},
+    {"id": "how", "chapter": "How it works", "beats": [
+      "A modern AI chatbot is not the old menu bot that only understood fixed buttons.",
+      "It has three parts.",
+      "First, a language model that understands what the person actually means.",
+      "Second, a knowledge base built from your own data. Products, policies, and documents. So answers come from your business, not from guesswork.",
+      "Third, tools. Secure connections to your inventory, orders, payments, and admin panel, so the bot can take real actions.",
+      "Wrap that in guardrails and permissions, add a clean handoff to a human, and you have an assistant you can trust."]},
+    {"id": "customers", "chapter": "For customers", "beats": [
+      "For customers, the difference is instant.",
+      "Support is available twenty-four seven, in their own language.",
+      "They can track an order, find the right product, check stock, or book an appointment, without waiting in a queue.",
+      "And when an issue is complex or emotional, the bot passes the full conversation to a human, so nobody has to repeat themselves."]},
+    {"id": "owners", "chapter": "For owners and admins", "beats": [
+      "For owners and admins, the chatbot becomes a control panel you can talk to.",
+      "Upload products by simply describing them. Add twenty hoodies, sizes small to extra large, at twenty-nine dollars. The bot creates the listings, sets the stock, and asks you to confirm.",
+      "It can read invoices and documents, calculate totals, taxes, and margins, and turn them into a clear report.",
+      "It handles regular updates, like price changes, low stock alerts, and weekly summaries.",
+      "And it helps with security. Flagging suspicious logins, reminding you about pending updates, and keeping an audit log of every action.",
+      "You set the rules once. The assistant runs them every day."]},
+    {"id": "proof", "chapter": "The proof", "beats": [
+      "So is this real, or just hype? Let's look at the numbers.",
+      "In 2024, Klarna reported that its AI assistant handled two point three million conversations in its first month. That was two thirds of its customer service chats, roughly the work of seven hundred full-time agents.",
+      "Klarna also reported that the average time to resolve an issue dropped from eleven minutes to under two.",
+      "A study of more than five thousand support agents, by economists from Stanford and M.I.T., found that AI assistance raised issues resolved per hour by fourteen percent, and by thirty-four percent for newer agents.",
+      "And Gartner predicts that by twenty twenty-nine, agentic AI will resolve eighty percent of common customer service issues without human help."]},
+    {"id": "cost", "chapter": "The cost logic", "beats": [
+      "Now, the logic behind the savings.",
+      "A human team costs roughly the same for every extra conversation. Double the questions, and you need close to double the people.",
+      "An AI assistant has a setup cost, and then each extra conversation costs a small fraction of that.",
+      "So the bot takes the repetitive majority, and your people focus on sales, complex cases, and building the product.",
+      "That's where the real savings come from. Not from removing humans, but from not wasting them on the same question a thousand times."]},
+    {"id": "right", "chapter": "Doing it right", "beats": [
+      "But here's the part most people skip.",
+      "In 2024, a Canadian tribunal held Air Canada responsible after its chatbot gave a customer the wrong refund information. The airline had to pay.",
+      "And in 2025, Klarna's own C.E.O. said that leaning too hard on automation lowered quality, so they started hiring human agents again.",
+      "The lesson is simple. A chatbot is only as good as its design.",
+      "Ground every answer in your real data. Limit what it is allowed to do. Ask for confirmation before important actions. Log everything. And keep a human one click away.",
+      "Build it this way, and you get speed, lower cost, and a low error rate, together."]},
+    {"id": "future", "chapter": "The bigger picture", "beats": [
+      "This is why the chatbot is becoming the front door of every app.",
+      "Customers talk to it to get help. Owners talk to it to run the business.",
+      "And step by step, it automates the whole workflow, exactly the way the owner wants.",
+      "The businesses adopting this now are not just saving money. They are building the data and the systems their competitors will need years to catch up with."]},
+    {"id": "cta", "chapter": "", "beats": [
+      "So, the real question is.",
+      "Is your app ready for AI?",
+      "If you want an AI chatbot built for your app or website, from customer support to inventory, documents, and security, visit zahidul islam dot com, and let's build it together."]}
+  ]
+}

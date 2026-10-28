@@ -1,0 +1,70 @@
+{
+ "id": "short",
+ "title": "Your App Needs an AI Chatbot",
+ "ratio": "portrait",
+ "voice": "am_puck",
+ "speed": 1.0,
+ "scenes": [
+  {
+   "id": "hook",
+   "chapter": "",
+   "beats": [
+    "It's two in the morning. Your team is asleep.",
+    "But your app is still answering customers."
+   ]
+  },
+  {
+   "id": "title",
+   "chapter": "",
+   "beats": [
+    "That's an AI chatbot. And in this era, every app and website needs one. Here's why."
+   ]
+  },
+  {
+   "id": "customers",
+   "chapter": "For customers",
+   "beats": [
+    "For customers, it means instant answers, twenty-four seven.",
+    "Order tracking, product picks, and stock checks, in any language.",
+    "And when it gets complex, it hands the chat to a human, with the full context."
+   ]
+  },
+  {
+   "id": "owners",
+   "chapter": "For owners",
+   "beats": [
+    "For owners, it's a control panel you can talk to.",
+    "Upload products just by describing them.",
+    "Calculate invoices and reports in seconds.",
+    "And get low stock alerts and security warnings automatically.",
+    "You set the rules once. It runs them every day."
+   ]
+  },
+  {
+   "id": "proof",
+   "chapter": "The proof",
+   "beats": [
+    "Is it real? Klarna reported its AI assistant handled two thirds of its customer chats in the first month. That's the work of about seven hundred agents.",
+    "A Stanford and M.I.T. study found AI assistance helped support agents resolve fourteen percent more issues per hour.",
+    "And Gartner predicts AI will resolve eighty percent of common service issues by twenty twenty-nine."
+   ]
+  },
+  {
+   "id": "right",
+   "chapter": "Build it right",
+   "beats": [
+    "But build it right.",
+    "Air Canada was held responsible when its chatbot gave a customer the wrong refund policy.",
+    "Ground it in your own data, confirm important actions, and keep a human one tap away."
+   ]
+  },
+  {
+   "id": "cta",
+   "chapter": "",
+   "beats": [
+    "So, is your app ready for AI?",
+    "Let's build yours, at zahidul islam dot com."
+   ]
+  }
+ ]
+}
