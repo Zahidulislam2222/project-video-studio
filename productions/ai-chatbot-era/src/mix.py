@@ -85,7 +85,8 @@ def main(folder):
     for ev in json.loads((folder / "sfx.json").read_text()):
         place(fx, w if ev["k"] == "whoosh" else h, ev["t"] - (0.35 if ev["k"] == "whoosh" else 0), 0.22 if ev["k"] == "whoosh" else 0.28)
     place(fx, h, 0.05, 0.3)
-    bed = pad(n / SR)
+    bed = pad(n / SR)[:n]
+    bed = np.pad(bed, (0, n - len(bed)))
     # Duck the bed under speech.
     env = np.convolve(np.abs(voice), np.ones(4800) / 4800, mode="same")
     duck = 1 - 0.55 * np.clip(env / 0.05, 0, 1)
