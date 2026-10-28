@@ -158,7 +158,7 @@ function stamp(str, x, y, p, color = C.red, size = 64) {
 }
 
 // Simple phone frame; contents drawn by fn in local coordinates (0..w, 0..h).
-function phone(x, y, w, h, fn, o = {}) {
+export function phone(x, y, w, h, fn, o = {}) {
   X().save();
   X().shadowColor = o.glow || 'rgba(59,130,246,0.55)'; X().shadowBlur = 60;
   rrect(x, y, w, h, 56); X().fillStyle = '#0b1028'; X().fill();
@@ -177,7 +177,7 @@ function phone(x, y, w, h, fn, o = {}) {
   X().restore();
 }
 
-function chatHeader(w, title, sub, color = C.green) {
+export function chatHeader(w, title, sub, color = C.green) {
   X().fillStyle = 'rgba(255,255,255,0.04)';
   X().fillRect(0, 0, w, 140);
   badge('bot', 64, 96, 30, C.cyan, { blur: 10 });
