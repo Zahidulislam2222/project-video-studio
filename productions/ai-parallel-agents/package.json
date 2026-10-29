@@ -1,0 +1,27 @@
+{
+  "name": "ai-parallel-agents-video",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Long (landscape) and short (portrait) explainer: parallel AI coding agents and the switch-provider handoff.",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render:long": "remotion render src/index.ts LongVideo out/long-landscape.mp4",
+    "render:short": "remotion render src/index.ts ShortVideo out/short-portrait.mp4"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "@react-three/fiber": "9.8.2",
+    "@remotion/cli": "4.0.539",
+    "@remotion/three": "4.0.539",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.539",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "@types/three": "0.180.0",
+    "typescript": "5.9.3"
+  }
+}

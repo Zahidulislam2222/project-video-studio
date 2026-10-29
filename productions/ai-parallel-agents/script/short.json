@@ -1,0 +1,74 @@
+{
+  "id": "short",
+  "scenes": [
+    {
+      "id": "hook",
+      "chapter": "",
+      "lines": [
+        "One developer. Four projects. Four AI agents, all working at the same time.",
+        "And not even a usage limit stops the work."
+      ]
+    },
+    {
+      "id": "setup",
+      "chapter": "",
+      "lines": [
+        "Two run Claude Code. Two run Codex.",
+        "I give each one a clear task, then rotate. Plan, review, next window."
+      ]
+    },
+    {
+      "id": "docs",
+      "chapter": "",
+      "lines": [
+        "Every project has written context. Requirements, architecture, design, memory, rules, and a tracker.",
+        "So the agent follows decisions, instead of guessing."
+      ]
+    },
+    {
+      "id": "limit",
+      "chapter": "",
+      "lines": [
+        "But what happens when one agent hits its usage limit, mid task?",
+        "The limit isn't the real problem. Losing the context is."
+      ]
+    },
+    {
+      "id": "skill",
+      "chapter": "",
+      "lines": [
+        {
+          "t": "I run my switch-provider skill.",
+          "say": "I run my switch provider skill."
+        },
+        "It finishes a safe checkpoint, and writes a handoff. The goal, decisions, changed files, real test results, and next steps.",
+        "It saves that to private project memory, scans it for secrets, and then I type exit."
+      ]
+    },
+    {
+      "id": "menu",
+      "chapter": "",
+      "lines": [
+        {
+          "t": "The launcher asks: Subscription, or OpenRouter, with a spending cap I set. I choose. Not the agent.",
+          "say": "The launcher asks. Subscription, or Open Router, with a spending cap I set. I choose. Not the agent."
+        }
+      ]
+    },
+    {
+      "id": "resume",
+      "chapter": "",
+      "lines": [
+        "The new session reads the checkpoint, and the work just continues.",
+        "Same skill, in Claude Code and Codex. That's how you ship faster in the AI era."
+      ]
+    },
+    {
+      "id": "outro",
+      "chapter": "",
+      "lines": [
+        "Questions? Contact me through my portfolio."
+      ]
+    }
+  ]
+}

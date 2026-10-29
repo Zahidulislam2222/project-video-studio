@@ -1,0 +1,75 @@
+{
+  "id": "long",
+  "scenes": [
+    {"id": "hook", "chapter": "", "lines": [
+      "This is one developer.",
+      "Four projects. Four AI agents, all working at the same time.",
+      "Two of them run Claude Code. Two of them run Codex.",
+      "And when one agent hits its usage limit in the middle of a task, the work doesn't stop. It switches, and keeps going.",
+      "Let me show you exactly how this workflow runs, step by step."
+    ]},
+    {"id": "shift", "chapter": "01 · The shift", "lines": [
+      "For years, building software was a single line. Pick one task, finish it, then start the next.",
+      "AI coding agents change the shape of that line.",
+      "The agent writes the code, runs it, and tests it. Your job moves up a level. You plan, you review, and you decide.",
+      "And once you are the reviewer instead of the typist, you are no longer limited to one project at a time."
+    ]},
+    {"id": "setup", "chapter": "02 · The setup", "lines": [
+      {"t": "Here's the setup. Four VS Code windows, one project in each.", "say": "Here's the setup. Four V S Code windows, one project in each."},
+      "Every window has its own agent running in the terminal. Claude Code in two of them, Codex in the other two.",
+      "Then I rotate. I give window one a clear task, and while it works, I move to window two. Then three. Then four.",
+      "By the time I'm back at the first window, finished work is waiting for review.",
+      "Review it, approve or correct it, hand over the next task, and move on. The agents do the building. I keep the direction."
+    ]},
+    {"id": "docs", "chapter": "03 · Context, not guesses", "lines": [
+      "But parallel work only helps if the output is right. Most AI mistakes don't come from bad code. They come from guessing.",
+      "So every project carries six context documents.",
+      "Requirements. What we're building, and why.",
+      "Architecture. The stack, the structure, and the data flow.",
+      "Design. Colors, type, and components.",
+      "Memory. The current state, and the next steps.",
+      "Rules. The commands and conventions the agent must follow.",
+      "And a tracker. Every task, its status, and its evidence.",
+      "Before any real work, the agent reads these first. It follows recorded decisions, instead of inventing new ones.",
+      "Fewer guesses means fewer errors. And the documentation stays current, because updating it is part of the job."
+    ]},
+    {"id": "limit", "chapter": "04 · The real problem", "lines": [
+      "Now, the real problem. Every subscription has a usage limit.",
+      "Run four agents in parallel, and sooner or later, one of them hits the wall. Right in the middle of a task.",
+      "The limit itself isn't the real cost. The real cost is context.",
+      "What was decided. What changed. What was tested. And what's left.",
+      "Lose that, and the next session starts from zero."
+    ]},
+    {"id": "skill", "chapter": "05 · switch-provider", "lines": [
+      {"t": "That's why I built a skill called switch-provider. It works the same way in Claude Code and in Codex.", "say": "That's why I built a skill called switch provider. It works the same way in Claude Code, and in Codex."},
+      {"t": "In Claude Code, I type /switch-provider. In Codex, it's $switch-provider.", "say": "In Claude Code, I type slash switch provider. In Codex, it's dollar switch provider."},
+      "Step one. The agent finishes the smallest safe checkpoint in the current task. No half-written changes, and no commits just to switch.",
+      "Step two. It writes a structured handoff. The goal, constraints, decisions, changed files, the tests that actually ran and their results, failures, remaining work, blockers, and the next action.",
+      "And it never claims a test passed if that test didn't run.",
+      "Step three. A helper saves the checkpoint into the project's private memory folder. It first verifies that folder is ignored by git, and it captures the current git state.",
+      "Step four. Another helper scans the checkpoint for secrets, like keys and tokens, and ties it to this launcher session. If anything sensitive shows up, the handoff is rejected until it's fixed.",
+      "Step five. The agent tells me: checkpoint saved. Type exit."
+    ]},
+    {"id": "menu", "chapter": "06 · You choose", "lines": [
+      {"t": "When I exit, the launcher shows a simple menu with two options. Subscription, which is the default. Or OpenRouter.", "say": "When I exit, the launcher shows a simple menu, with two options. Subscription, which is the default. Or Open Router."},
+      {"t": "OpenRouter gives pay-as-you-go access through an API key, and that key has a spending cap that I set myself.", "say": "Open Router gives pay as you go access through an A P I key. And that key has a spending cap that I set myself."},
+      "And here's the important part. The agent never chooses for me. It doesn't spend credit, change credentials, or restart anything on its own. I make the call."
+    ]},
+    {"id": "resume", "chapter": "07 · Pick up where it stopped", "lines": [
+      "Then the new session starts, receives the checkpoint path, and reads it before doing anything else.",
+      "It isn't a magic replay of the old conversation. It's a clean, written handoff. And that's exactly why it works.",
+      "The next agent knows the goal, what's done, what's verified, and what to do next.",
+      "So the task gets finished, with proper docs, and far fewer mistakes."
+    ]},
+    {"id": "recap", "chapter": "08 · The system", "lines": [
+      "So here's the whole system.",
+      "Run several projects in parallel, and stay the reviewer.",
+      "Give every agent written context, so it never has to guess.",
+      "And when a limit hits: checkpoint, switch, and continue.",
+      "In this AI era, speed isn't about typing faster. It's about knowing how to use these tools properly."
+    ]},
+    {"id": "outro", "chapter": "", "lines": [
+      "If you have any questions, feel free to contact me. You'll find everything on my portfolio."
+    ]}
+  ]
+}
